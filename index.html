@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo App</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/173be59187.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Electrolize&family=Josefin+Slab:wght@100&family=Koulen&family=Lato&family=Orelega+One&family=Roboto+Mono:ital,wght@1,100&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">To Do List App</h1>
+        <div class="container">
+            <div class="head">
+                <div class="text-box"><input type="text" id="text-input" placeholder="Enter the task here" onKeyPress="enterPressed(event)"></div>
+                <div class="enter-box"><button type="button" id="enter-btn" onclick="pushTodo()">Enter</button></div>
+            </div>  
+        
+            <div id="todo-list">
+              <!--  <div class="item-body">
+                        <input type="checkbox" class="cbox">
+                        <div class="ptag">
+                            <p class="todo">new item here</p>
+                            <p class="datetime">date</p>
+                        </div>
+                        <div class="del-box">X</div>
+                    </div>-->
+            </div>
+        </div>
+       
+    <script src="script.js"></script>
+    </body>
+</html>
